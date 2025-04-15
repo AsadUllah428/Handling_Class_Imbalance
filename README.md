@@ -47,3 +47,14 @@ Install requirements: pip install -r requirements.txt
 Run Jupyter notebook: fraud_detection_resampling.ipynb
 
 Note: Dataset expected in data/creditcard.csv
+
+## Data Source
+The primary dataset used is available on Kaggle:
+[Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+To use:
+1. Download `creditcard.csv` from Kaggle
+2. Place it in the directory
+3. The notebook will automatically load it from there
+
+(Requires Kaggle account and API token if downloading programmatically)
